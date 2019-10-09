@@ -10,10 +10,6 @@
 		414EF3643C172BA98E2D33B6493A50AA /* Pods-TestPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FF94B6B8F1630220727BCABE0FD9BA /* Pods-TestPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48C5E510FA537385164651BDF9BCB73A /* Pods-TestPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE75A022EE5E7848298F8F2ACAFA6F5 /* Pods-TestPod-dummy.m */; };
 		8D9808DA1C5555178C074A55871371E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		99F8B0C4234D98C7005AFEAB /* HWSMS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 99F8B0C2234D98C7005AFEAB /* HWSMS.podspec */; };
-		99F8B0F2234D99F5005AFEAB /* HWSMS.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F8B0F0234D99F5005AFEAB /* HWSMS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99F8B0FC234D9A3A005AFEAB /* TestABC.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F8B0FA234D9A3A005AFEAB /* TestABC.h */; };
-		99F8B0FD234D9A3A005AFEAB /* TestABC.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F8B0FB234D9A3A005AFEAB /* TestABC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +18,8 @@
 		35054CEEEEFC76CC19A2519D50F5E6ED /* Pods_TestPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8374A9295C736AF0E7B39B33C267E371 /* Pods-TestPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPod-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A059C46B76BC34BD85751CBAFE9FE83 /* Pods-TestPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPod-acknowledgements.plist"; sourceTree = "<group>"; };
-		99F8B0C2234D98C7005AFEAB /* HWSMS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HWSMS.podspec; path = ../../HWSMS.podspec; sourceTree = "<group>"; };
 		99F8B0DC234D9927005AFEAB /* TestPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F8B0EE234D99F5005AFEAB /* HWSMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HWSMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99F8B0F0234D99F5005AFEAB /* HWSMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSMS.h; sourceTree = "<group>"; };
-		99F8B0F1234D99F5005AFEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99F8B0FA234D9A3A005AFEAB /* TestABC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestABC.h; sourceTree = "<group>"; };
-		99F8B0FB234D9A3A005AFEAB /* TestABC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestABC.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1F830757DBBE94A53CA5CFC5B3D8CE3 /* Pods-TestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPod.debug.xcconfig"; sourceTree = "<group>"; };
 		B4FF94B6B8F1630220727BCABE0FD9BA /* Pods-TestPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPod-umbrella.h"; sourceTree = "<group>"; };
@@ -89,26 +80,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		99F8B0C1234D98AA005AFEAB /* Development Pod */ = {
-			isa = PBXGroup;
-			children = (
-				99F8B0EF234D99F5005AFEAB /* HWSMS */,
-				99F8B0C2234D98C7005AFEAB /* HWSMS.podspec */,
-			);
-			path = "Development Pod";
-			sourceTree = "<group>";
-		};
-		99F8B0EF234D99F5005AFEAB /* HWSMS */ = {
-			isa = PBXGroup;
-			children = (
-				99F8B0F0234D99F5005AFEAB /* HWSMS.h */,
-				99F8B0F1234D99F5005AFEAB /* Info.plist */,
-				99F8B0FA234D9A3A005AFEAB /* TestABC.h */,
-				99F8B0FB234D9A3A005AFEAB /* TestABC.m */,
-			);
-			path = HWSMS;
-			sourceTree = "<group>";
-		};
 		9A69EF079542F963F16842D5C3ABD9A2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +99,6 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				99F8B0C1234D98AA005AFEAB /* Development Pod */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3B13D8AF626DDD8894639C31378BB44D /* Products */,
@@ -166,8 +136,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99F8B0F2234D99F5005AFEAB /* HWSMS.h in Headers */,
-				99F8B0FC234D9A3A005AFEAB /* TestABC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99F8B0C4234D98C7005AFEAB /* HWSMS.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99F8B0FD234D9A3A005AFEAB /* TestABC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
