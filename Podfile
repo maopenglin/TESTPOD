@@ -4,7 +4,7 @@
 target 'TestPod' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  ##pod 'HWSMS',:git => 'https://github.com/maopenglin/TESTPOD.git',:tag => '1'
   # Pods for TestPod
 
 end

@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |spec|
-spec.name         = "Test"
+spec.name         = "TESTMMM"
 spec.version      = "1"
 
 spec.summary      = "Test Framework "
@@ -10,10 +10,10 @@ DESC
 spec.homepage     = "http://www.holla.world/"
 spec.license      = { :type => "Copyright", :text => "Copyright 2018 holla.world. All rights reserved.\n" }
 spec.author       = { "毛鹏霖" => "maoepnglin@holla.world" }
-spec.source       = { :git => "https://github.com/maopenglin/TESTPOD.git", :tag => spec.version.to_s }
+spec.source       = { :git => "https://github.com/maopenglin/TESTPOD.git"}
 
-spec.source_files    = 'HWSMSLogin/**/*.{h,m}'
-spec.public_header_files = 'HWSMSLogin/HWSMS.h'
+spec.source_files    = 'TESTMMM/**/*.{h,m}'
+spec.public_header_files = 'TESTMMM/*.h'
 
 ##spec.library         = "sqlite3"
 spec.frameworks       = "Foundation", "AdSupport"
